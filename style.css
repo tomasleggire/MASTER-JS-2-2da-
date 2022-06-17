@@ -1,0 +1,137 @@
+body {
+    color: #222;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+                                           /*
+img { 
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.resultado {
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+    grid-auto-rows: 100px;
+    grid-gap: 6px;
+}
+
+img:first-child {
+    grid-column: 1 / 3;
+    grid-row: 1 / 3;
+}
+
+img:first-child {
+    grid-column: 1 / 3;
+    grid-row: 1 / 3;
+}
+
+img:nth-child(6) {
+    grid-column: 2 / 4;
+    grid-row: 3 / 5;
+}
+
+img:nth-child(10) {
+    grid-row: span 2;
+}
+                                             */
+
+
+                                              /*
+.zona-arrastre, .barra-de-carga {
+    padding: 60px 20px;
+    border: 4px dashed #888;
+    max-width: 500px;
+    color: #222; 
+    margin: auto;
+    text-align: center;
+    margin-top: 30px;
+    position: relative;
+    z-index: 10;
+    transition: width 0.1s;
+}
+
+.barra-de-carga {
+    position: absolute;
+    width: 0;
+    left: 0;
+    right: 0;
+    margin-top: 0;
+    padding: 0;
+    z-index: 0;
+    border: none;
+    background: #def;
+}
+
+.resultado {
+    text-align: center;
+    padding: 20px;
+}
+
+img {
+    width: 400px;
+    margin: auto;
+}
+                                             */
+
+body, h2, div, input, button{
+    padding: 0;
+    margin: 0;
+}
+
+.nombres {
+    margin: 40px;
+}
+
+.nombre {
+    display: grid;
+    grid-template-columns: minmax(100px,300px) 1fr;
+    border-top: 1px solid #48e;
+}
+
+.options {
+    display: flex;
+    justify-self: end;  
+}
+
+.add-nombres {
+    margin-top: 40px;
+}
+
+#nombre {
+    padding: 4px 8px;
+}
+
+#add {
+    padding: 4px 8px;
+}
+
+.options button {
+    background: transparent;
+    border: none;
+    margin: 4px 10px;
+}
+
+.delete:hover {
+    color: #999;
+}
+
+.imposible {
+    color: #ccc;
+}
+
+.posible {
+    color: #37d;
+}
+
+.posible:hover {
+    color: #6af;
+}
+
+.nombre h2 {
+    padding: 6px;
+    color: #48e;
+}
